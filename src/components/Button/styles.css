@@ -1,8 +1,10 @@
 .button-component{
-    height: 50px;
-    width: 370px;
+    height: 70px;
+    width: 470px;
     border: none;
     border-radius: 4px;
+    padding: 20px 54px;
     background-color: #1F27F5;
     color: beige;
+    cursor: pointer;
 }
