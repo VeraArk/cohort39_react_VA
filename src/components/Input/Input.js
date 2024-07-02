@@ -1,10 +1,10 @@
 import "./styles.css";
 
-function Input({name, type, placeholder, label }) {
+function Input({id, name, type, placeholder, label }) {
   return (
     <div className="input-container">
-      <label for = {name}>{label}</label>
-      <input id={name} type={type} placeholder={placeholder} className="input-component" />
+      <label htmlFor = {id}>{label}</label>
+      <input id={id} name={name} type={type} placeholder={placeholder} className="input-component" />
     </div>
   );
 }
