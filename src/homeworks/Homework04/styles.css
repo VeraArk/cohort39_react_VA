@@ -1,0 +1,12 @@
+.homework04_page{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
